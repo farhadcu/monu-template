@@ -19,16 +19,35 @@ h6 {
 
 p {}
 
-/* header area  */
-.header-area {
-    padding: 0 40px;
-}
-
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
+.btn {
+    border: 1px solid #505cfd;
+    padding: 15px 40px;
+    color: #595959;
+    border-radius: 30px;
+    font-weight: 600;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+/* header area  */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.header-area {
+    padding: 0 40px;
+}
+
 
 .main-menu ul li {
     display: inline-block;
@@ -60,6 +79,61 @@ ul {
 
 
 /* slider area  */
-.slider-area>img {
-    width: 100%;
+.single-slider {
+    height: 100vh;
+}
+
+.slider-icon {
+    margin-bottom: 20px;
+}
+
+.slider-icon a {
+    color: #505cfd;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+.slider-inner h2 {
+    font-size: 72px;
+    font-weight: 600;
+    color: #595959;
+    margin-bottom: 15px;
+}
+
+.slider-inner p {
+    color: #343434;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+/* features-area  */
+.features-area {
+    margin-top: -110px;
+    z-index: 2425;
+    position: relative;
+}
+
+.single-features {
+    padding: 60px 0;
+}
+
+.single-features i {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.single-features h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.single-features p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0;
 }
