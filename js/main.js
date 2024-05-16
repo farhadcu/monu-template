@@ -9,6 +9,16 @@ $(document).ready(function(){
         slidesToScroll: 1,
       });
 
+      //counter js
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+  
+
+
+
 
 
 

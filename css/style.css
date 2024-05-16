@@ -283,3 +283,110 @@ header {
     line-height: 36px;
     color: #595959;
 }
+
+/* counter-area  */
+.counter-wrapper i {
+    font-size: 30px;
+    margin-bottom: 30px;
+    display: block;
+    color: #fff;
+}
+
+.counter-wrapper span {
+    color: #fff;
+    font-size: 32px;
+    font-family: 'poppins', sans-serif;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.counter-wrapper p {
+    margin: 0;
+    color: #fff;
+}
+
+/* team-area  */
+.team-wrapper {
+    position: relative;
+}
+
+.team-img::before {
+    position: absolute;
+    background: #fff;
+    opacity: 0;
+    content: "";
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    transition: .3s;
+    visibility: hidden;
+}
+
+.team-wrapper:hover .team-img::before {
+    opacity: .5;
+    visibility: visible;
+}
+
+.team-img img {
+    width: 100%;
+}
+
+.team-info {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.team-wrapper:hover .team-info {
+    opacity: 1;
+    visibility: visible;
+}
+
+.team-icon {
+    margin-top: 6px;
+}
+
+.team-info h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.team-icon a {
+    color: #444;
+    margin: 0 5px;
+}
+
+/* blog-area  */
+.blog-content {
+    margin-top: 15px;
+}
+
+.blog-content h3 a {
+    font-size: 22px;
+    color: #444;
+    text-decoration: none;
+}
+
+.blog-content p {
+    margin-bottom: 30px;
+}
+
+.blog-meta {
+    margin-bottom: 14px;
+}
+
+.meta-line {
+    background: #444;
+    height: 2px;
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    margin-left: 10px;
+}
