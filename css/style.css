@@ -390,3 +390,148 @@ header {
     top: -3px;
     margin-left: 10px;
 }
+
+/* testimonial-area  */
+.testimonial-item {
+    background: rgba(255, 255, 255, .9);
+    padding: 60px 123px;
+}
+
+.testimonial-name {
+    margin-bottom: 15px;
+}
+
+.testimonial-name h4 {
+    color: #505cfd;
+    font-size: 22px;
+}
+
+.testimonial-active .slick-dots {
+    margin-top: -40px;
+    z-index: 9;
+    position: relative;
+}
+
+.testimonial-active .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.testimonial-active .slick-dots li button {
+    /* text-indent: -9999px; */
+    font-size: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    padding: 0;
+    border: 2px solid #444;
+}
+
+.testimonial-active .slick-dots li.slick-active button {
+    background: #444;
+}
+
+button:focus {
+    outline: 0;
+}
+
+/* footer */
+.footer-bg {
+    background: #343434;
+}
+
+.footer-widget h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.contact-list {
+    margin-bottom: 20px;
+}
+
+.contact-list li {
+    line-height: 36px;
+    color: #777;
+}
+
+.footer-icon a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+ul.footer-link li {
+    width: 50%;
+    float: left;
+}
+
+ul.footer-link a {
+    color: #777;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+ul.footer-link a::before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer-blog li {
+    margin-bottom: 20px;
+}
+
+.footer-blog li:last-child {
+    margin-bottom: 0px;
+}
+
+/* .news-title h3{
+    color: #777;
+    font-size: 17px;
+} */
+
+.news-title h4 a {
+    color: #777;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.news-title span {
+    color: #777;
+}
+
+.news-thumb {
+    float: left;
+}
+
+.news-title {
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.news-title h4 {
+    line-height: 1;
+    margin: 0;
+}
+
+.copyright-text p {
+    color: #777;
+    margin: 0;
+}
+
+.footer-menu ul li a {
+    color: #777;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.copyright-border {
+    border-top: 1px solid #777;
+    padding: 30px 0;
+}
