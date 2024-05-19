@@ -19,7 +19,6 @@ h6 {
     color: #404044;
 }
 
-p {}
 
 ul {
     margin: 0;
@@ -116,7 +115,7 @@ header {
 }
 
 .single-features {
-    padding: 60px 0;
+    padding: 60px 15;
 }
 
 .single-features i {
@@ -172,7 +171,7 @@ header {
     margin-bottom: 0px;
 }
 
-.subsribe-form input {
+.subscribe-form input {
     width: 25%;
     border: 0;
     background: #fff;
@@ -182,7 +181,7 @@ header {
     border-radius: 30px;
 }
 
-.subsribe-form button {
+.subscribe-form button {
     background: #505cfd;
     color: #fff;
     border: 0;
@@ -534,4 +533,13 @@ ul.footer-link a::before {
 .copyright-border {
     border-top: 1px solid #777;
     padding: 30px 0;
+}
+
+/* image responsive  */
+.about-img img {
+    width: 100%;
+}
+
+.blog-thumb img {
+    width: 100%;
 }
