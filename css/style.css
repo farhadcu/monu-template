@@ -572,3 +572,53 @@ ul.footer-link a::before {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     opacity: .5;
 }
+
+/* google map  */
+#contact-map {
+    min-height: 400px;
+    width: 100%;
+}
+
+/* scrollup */
+#scrollUp {
+    height: 50px;
+    width: 50px;
+    background: red;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* accordion button  */
+.custom-accordion .btn {
+    border: 0;
+    padding: 15px 40px;
+    color: #595959;
+    border-radius: 0;
+    font-weight: 600;
+    font-family: poppins;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+.custom-accordion .btn.btn-link::before {
+    content: "-";
+    position: absolute;
+    right: 0;
+    border: 1px solid #444;
+    width: 40px;
+    height: 40px;
+    top: 7px;
+    text-align: center;
+    line-height: 37px;
+}
+
+.custom-accordion .btn.btn-link.collapsed::before {
+    content: "+";
+}
