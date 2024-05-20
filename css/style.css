@@ -329,6 +329,13 @@ header {
 
 .team-img img {
     width: 100%;
+    /* grayscale changes */
+    filter: grayscale(100%);
+    transition: .3s;
+}
+
+.team-wrapper:hover .team-img img {
+    filter: grayscale(0);
 }
 
 .team-info {
@@ -542,4 +549,26 @@ ul.footer-link a::before {
 
 .blog-thumb img {
     width: 100%;
+}
+
+/* gradient image background */
+.blog-thumb a {
+    position: relative;
+    display: block;
+}
+
+.blog-thumb a::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #333333;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: .5;
 }
