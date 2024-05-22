@@ -110,7 +110,7 @@ header {
 /* features-area  */
 .features-area {
     margin-top: -110px;
-    z-index: 2425;
+    z-index: 2;
     position: relative;
 }
 
@@ -621,4 +621,14 @@ ul.footer-link a::before {
 
 .custom-accordion .btn.btn-link.collapsed::before {
     content: "+";
+}
+
+/* sitcky header  */
+.header-area.sticky.scroll-header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    z-index: 99999;
 }
