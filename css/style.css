@@ -632,3 +632,8 @@ ul.footer-link a::before {
     border-bottom: 1px solid #ddd;
     z-index: 99999;
 }
+
+/* about page  */
+.pagte-title-area img {
+    width: 100%;
+}
